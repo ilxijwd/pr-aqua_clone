@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "diller_pages",
+  "info": {
+    "name": "dillerPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "pageMetaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-tags"
+    }
+  }
+}

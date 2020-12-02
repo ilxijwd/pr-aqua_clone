@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/prices-page",
+      "handler": "prices-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/prices-page",
+      "handler": "prices-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/prices-page",
+      "handler": "prices-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

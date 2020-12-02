@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "container_station_pages",
+  "info": {
+    "name": "containerStationPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "pageMetaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-tags"
+    },
+    "seoText_ru": {
+      "type": "richtext",
+      "required": true
+    },
+    "seoText_ua": {
+      "type": "richtext",
+      "required": true
+    },
+    "seoText_en": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/container-station-page",
+      "handler": "container-station-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/container-station-page",
+      "handler": "container-station-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/container-station-page",
+      "handler": "container-station-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.spacer {
+  padding-top: 82px;
+
+  @media (min-width: 768px) {
+    padding-top: 78px;
+  }
+
+  @media (min-width: 1366px) {
+    padding-top: 88px;
+  }
+}

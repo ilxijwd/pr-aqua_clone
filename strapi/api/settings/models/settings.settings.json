@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "name": "settings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "adminTelegramID": {
+      "type": "string",
+      "required": true
+    },
+    "maintenanceMode": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "name": "partners",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name_ru": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20
+    },
+    "name_ua": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20
+    },
+    "name_en": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20
+    },
+    "content_ru": {
+      "type": "text",
+      "required": true
+    },
+    "content_ua": {
+      "type": "text",
+      "required": true
+    },
+    "content_en": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

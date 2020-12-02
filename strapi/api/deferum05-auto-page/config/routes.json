@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/deferum-05-auto-page",
+      "handler": "deferum05-auto-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/deferum-05-auto-page",
+      "handler": "deferum05-auto-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/deferum-05-auto-page",
+      "handler": "deferum05-auto-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

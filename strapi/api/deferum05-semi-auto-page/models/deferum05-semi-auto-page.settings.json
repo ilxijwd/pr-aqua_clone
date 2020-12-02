@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "deferum05_semi_auto_pages",
+  "info": {
+    "name": "deferum05SemiAutoPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "pageMetaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-tags"
+    },
+    "seoText1_ru": {
+      "type": "text",
+      "required": true
+    },
+    "seoText1_ua": {
+      "type": "text",
+      "required": true
+    },
+    "seoText1_en": {
+      "type": "text",
+      "required": true
+    },
+    "seoText2_ru": {
+      "type": "text",
+      "required": true
+    },
+    "seoText2_ua": {
+      "type": "text",
+      "required": true
+    },
+    "seoText2_en": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/deferum-100-page",
+      "handler": "deferum100-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/deferum-100-page",
+      "handler": "deferum100-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/deferum-100-page",
+      "handler": "deferum100-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

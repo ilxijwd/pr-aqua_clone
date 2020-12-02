@@ -1,0 +1,356 @@
+{
+  "header": {
+    "navigation": {
+      "for-customers": "Customers",
+      "for-diller": "Dealer",
+      "articles": "Articles",
+      "prices": "Prices",
+      "contacts": "Contacts",
+      "about-us": "About us"
+    }
+  },
+  "footer": {
+    "we-are-close": "We are near",
+    "water-purification": "Water purification",
+    "all-rights-reserved": "All rights reserved",
+    "address": {
+      "title": "Address",
+      "content": "st. Yasnaya 3, Rivne, Ukraine, 33001"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "content": ["+38 (068) 763-18-20 (manager)", "+38 (0362) 68-40-30 (secretary)", "+38 (0362) 62-04-03 (fax)"]
+    },
+    "socials": "Social networks",
+    "request-a-call": "Request a call"
+  },
+  "pages": {
+    "error": {
+      "404": "Page not found",
+      "500": "Server error occured",
+      "unknown": "Unknown error",
+      "code": "Code",
+      "sorry": "Sorry for the inconvenience!",
+      "return": "Return to main page"
+    },
+    "maintenance": {
+      "tech-job": "Technical work in progress",
+      "sorry": "Sorry for the inconvenience!"
+    },
+    "index": {
+      "hero": {
+        "title": "Unique artesian water purification system",
+        "bubbles": ["In the bathroom", "On the kitchen", "In the washing machine", "Dishwasher safe"]
+      },
+      "video": {
+        "title": "Unique artesian water purification system"
+      },
+      "about": {
+        "applicable-for": {
+          "title": "Applicable for",
+          "places": [
+            {
+              "name": "Houses",
+              "img": "house",
+              "alt": "House"
+            },
+            {
+              "name": "Offices",
+              "img": "office",
+              "alt": "Office"
+            },
+            {
+              "name": "Boiler rooms",
+              "img": "steamshop",
+              "alt": "Boiler room"
+            },
+            {
+              "name": "Industries",
+              "img": "industry",
+              "alt": "Industry"
+            }
+          ]
+        },
+        "advantages": {
+          "title": "The advantages of our installations",
+          "list": [
+            "Opening / closing the water in the tap is all that the owner does.",
+            "There is always a supply of clean water for large water consumption, or we will install an additional reservoir of clean water.",
+            "One unit can be used for 2 or more cottages.",
+            "Reagent-free water purification without harm to the septic tank.",
+            "No consumables needed at all and never.",
+            "Installations are adapted for the implementation of objects of varying complexity.",
+            "Deferum plants have a Ukrainian certificate, which states that the treated water meets the requirements of the Drinking Water standard."
+          ],
+          "table": {
+            "description": "Purification of natural water or additional purification of tap water: in periodic or continuous mode of water consumption",
+            "head": ["Types of pollution", "Index", "Before", "After"],
+            "rows": [
+              ["Iron", "mg/l", "30 and more", "0.10"],
+              ["Manganese", "mg/l", "1.5", "0.05"],
+              ["Turbidity", "mg/l", "30", "To the absence"],
+              ["Hydrogen sulfide", "mg/l", "1.0", "To the absence"],
+              ["Ammonia", "mg/l", "5", "To the absence"],
+              ["Arsenic", "mg/l", "1.0", "0.01"],
+              ["Smell", "score", "4", "1"],
+              ["Dissolved gas ions", "%", "-", "decrease"],
+              ["Permang, oxidizability", "mg/l", "-", "decrease"],
+              ["Fluorine", " ", "-", "decrease"],
+              ["Chromaticity", "grad", "-", "decrease"],
+              ["Other pollution", " ", "-", "decrease"]
+            ]
+          }
+        }
+      },
+      "feedback": {
+        "title": "The principle of cleaning \"Deferum\""
+      },
+      "products": {
+        "title": "Our production",
+        "list": [
+          {
+            "name": "\"Deferum 05\" semi-automatic flushing",
+            "slug": "deferum-05-semi-auto"
+          },
+          {
+            "name": "\"Deferum 05\" automatic flushing",
+            "slug": "deferum-05-auto"
+          },
+          {
+            "name": "\"Deferum 100\"",
+            "slug": "deferum-100"
+          },
+          {
+            "name": "Container station",
+            "slug": "container-station"
+          }
+        ],
+        "price": "Price",
+        "details": "More details"
+      },
+      "volumes": {
+        "title": "Capacities",
+        "description": "We make to order, from polypropylene 5 mm thick, additional reservoirs for clean water (hereinafter referred to as RFW), adapted to DEFERUM installations, to increase the volume / stock of clean water for salvo analysis.",
+        "note": "Note: These additional RFIs do not require additional pumps or controls. All you need is already in DEFERUM! Water from additional RFV is supplied for consumption by the existing pump at the installation. <div class=\"text-green-500\">With additional RFI, the mode and principle of operation of the DEFERUM does not change, only the supply of clean water increases.</div> Custom production of containers, tanks, reservoirs made of polypropylene. You can order any non-standard containers, tanks, reservoirs, etc. Made of polypropylene sheet, designed for storage and transportation of various liquids (drinking water, alcohol, oil, alkali, waste water, feces, diesel fuel, sulfuric acid, pesticides), as well as bulk materials. The manufactured products are widely used in the conditions of individual, industrial construction, in the food and chemical industries of construction, and the arrangement of household plots."
+      },
+      "partners": {
+        "title": "Our partners"
+      },
+      "reviews": {
+        "title": "Feedback from our clients",
+        "leave-review": "Leave feedback",
+        "all-reviews": "All reviews"
+      }
+    },
+    "customer": {
+      "title": "Typical applications for \"Deferum\"",
+      "green-list": [
+        "Artesian water treatment",
+        "Reagent-free deferrization (high concentrations)",
+        "Removing odors and gases",
+        "Turbidity removal"
+      ],
+      "another-list": {
+        "title": "Deferum units are made of materials of “European quality”, namely:",
+        "list": [
+          "All-welded body made of UV stabilized polypropylene from the German manufacturer \"Simona\", 5 mm thick. This type of polypropylene is used both for the manufacture of swimming pools and for various types of containers, including for drinking water. This material is resistant to corrosion and thermal stress, as well as to environments with high acidity, which in turn makes Deferum units reliable, long-term and practical.",
+          "All fittings (taps, transitions, threaded connections, etc.) and pipes are manufactured in the Czech Republic by FV-Plast, which has established itself on the market as a leader in this industry.",
+          "For the operation of the installation, the original low-noise pumps of the Italian manufacturer \"Pedrollo\" are used with a maximum working pressure of 3 atm, which guarantees stable operation of the installation and, accordingly, high-quality water purification.",
+          "The automation block that controls the operation of the unit was developed specifically for Deferum units and includes many unique settings, which allows the unit to be adjusted to the individual requirements of the client.",
+          "The filtering charge is made directly at the \"PiaR-AQUA\" plant from high-quality raw materials (manufacturer - Taiwan) in compliance with all technological requirements directly from the Deferum plant developer."
+        ],
+        "description": "The units are assembled manually - during the production process, each element is given maximum attention, and at every stage of assembly - from the case to the finished unit - quality control is carried out. The design of the units is constantly being modified for practicality and ease of use. After the end of production, tests of each installation are necessarily carried out in order to make sure that Deferum is ready for immediate delivery to the client and for water purification."
+      },
+      "example-waterpure-title": "Example of a turnkey water treatment system",
+      "images-descriptions": [
+        ["Reagent-free installation \"Defrum-05\"", "(purified water = electricity)"],
+        ["An example of a reagent cleaning system", "(purified water = salts; ion exchange resins, etc.)"]
+      ]
+    },
+    "diller": {
+      "hero": [
+        "If you are a Dealer, write us an e-mail or call",
+        "Direct question, on the case:",
+        "— What are your suggestions?",
+        "— What are your expectations for a business with a manufacturer?"
+      ],
+      "offers": "Our offers to Dealer",
+      "legal-entity": {
+        "title": "1. If the Dealer (legal entity), then",
+        "list": [
+          "The manufacturer sells Deferum water treatment plants to the dealer at the factory price (that is, with a favorable dealer discount) for the dealer to work independently with the customers.",
+          "The manufacturer provides monetary guarantees.",
+          "The manufacturer provides technical advice and training to the Dealer.",
+          "The manufacturer provides the supply of components to the Dealer's warehouse for servicing his customers.",
+          "The manufacturer helps the dealer to increase sales and fast service."
+        ]
+      },
+      "individual-entity": {
+        "title": "2. If the Dealer (individual), then",
+        "list": [
+          "Dealer will find customers and fulfill manufacturer's contracts with customers.",
+          "The manufacturer pays the dealer's salary for each unit sold by the dealer."
+        ]
+      },
+      "note": "Note",
+      "manufacturer": "The manufacturer will fulfill, together with the dealer, his first contract with the client: i.e., show, tell, teach, support.",
+      "waiting": "We are waiting from a potential Dealer",
+      "meeting": "1. Personal meeting in Rivne: (at the manufacturer's office), as well as to get acquainted with the production and the actual operation of Deferum plants in Rivne, in order to then agree on the intentions of the Parties, i.e.",
+      "meeting-progress": [
+        "Subject of agreement of the Parties",
+        "Tasks for solutions",
+        "Joint action plan",
+        "Expected results for Parties"
+      ],
+      "meeting-results-title": "2. The result of a personal meeting",
+      "meeting-results": [
+        "We'll get a new dealer",
+        "The dealer will gain the manufacturer and a competitive advantage for his independent business. This will help establish a strong, mutually beneficial and open relationship between the dealer and the manufacturer."
+      ]
+    },
+    "prices": {
+      "title": "Prices",
+      "aside": {
+        "main-text": "Our experts are always ready to provide qualified advice on the selection of equipment for the purification of artesian water. To select a Deferum installation and calculate the cost of a complex solution for water purification, you must provide",
+        "list": [
+          "- raw water analysis",
+          "- required plant performance",
+          "- availability of the location of the outlet pipelines, for consumption, sewerage (septic tank), el. power supply 220V (P = 3kW)"
+        ]
+      }
+    },
+    "contacts": {
+      "title": "Contacts",
+      "table-title": "PR-AQUA LLC",
+      "address": {
+        "title": "Address",
+        "content": "st. Yasnaya 3, Rivne, Ukraine, 33001"
+      },
+      "contacts": {
+        "title": "Contacts",
+        "content": ["+38 (068) 763-18-20 (manager)", "+38 (0362) 68-40-30 (secretary)", "+38 (0362) 62-04-03 (fax)"]
+      },
+      "socials": "Social networks"
+    },
+    "about-us": {
+      "title": "About us",
+      "equipment": "Unusual equipment and technologies for natural water purification, removal of iron, manganese, odor, turbidity, color, total hardness, organic matter, etc. Drinking water in a cottage, in a house, in a village, in a city, in the country of PR-AQUA LLC is a joint company in the city of Rivne, in which they combined their capabilities",
+      "developer": "Developer",
+      "developer-fullname": "Remizov Alexander Dmitrievich",
+      "manufacturer": "Manufacturer",
+      "manufacturer-name": "PR-AQUA LLC",
+      "director": "Director",
+      "director-name": "Paliy Vladimir",
+      "we-made": "<span class=\"text-green-500\">We have made</span> Ukrainian reagent-free installations Deferum for purification and additional purification of complex artesian underground water or surface water with concentrations of contaminants: iron, manganese, color, turbidity, ammonia, fluorine, silicon, organic matter, odor, radon, etc., for water softening, reducing water hardness, removing calcium ions",
+      "sell": "<div class=\"text-green-500\">We sell in Ukraine, Russia and other countries:</div>Compact automatic, self-cleaning, gravity-flowing non-reagent water purification plants and degreasers, installations for iron removal of water (including those with high concentrations of iron, manganese, hydrogen sulfide odor, turbidity, color, total hardness, etc.)",
+      "capabilities": {
+        "title": "Our capabilities are",
+        "list": [
+          "Manufacturing, supply, start-up, service of prefabricated Deferum water treatment plants.",
+          "Automatic installations Deferum, made of polypropylene for the purification of artesian water or river water.",
+          "Self-cleaning Deferum plants, made of polypropylene, steel, or reinforced concrete.",
+          "Mobile automatic units Deferum, with a separate power source (electric generator).",
+          "Autonomous containerized water treatment plants Deferum for purification or post-treatment of water: for a multi-apartment building, a cottage town, a street, a shift camp, with control via a mobile phone.",
+          "Permanent construction of urban wastewater treatment plants by a local reinforced concrete contractor.",
+          "Technical advice.",
+          "Commissioning. Manufacturing / supply of filter media, aero degassers, hydro robots.",
+          "Service maintenance."
+        ]
+      },
+      "20-years": "Over 20 years",
+      "our-job": "Patient and persistent work to ensure that our proposals, technologies and equipment truly delight our customers: buyers, customers, designers, contractors, licensees, dealers, lobbyists.",
+      "we-value": "“We value not only ours, but also your time”",
+      "attention": "Attention!",
+      "counterfeits": "There are fakes! They steal. therefore, announcement / warning",
+      "certificate": "Certified installations, with our trade mark Deferum, are qualitatively manufactured in the CIS only",
+      "certificated-manufacturers": "“PR-AQUA LLC” и “Аквастройсервис”"
+    },
+    "articles": {
+      "read-more": "Read more..."
+    },
+    "products": {
+      "container-station": {
+        "title": "Container station",
+        "list-2": [
+          "Disinfection of purified water, if necessary: separate delivery",
+          "Unit Deferum-500 m3 / day of container type, located in a 20-foot container.",
+          "For test tests, we offer a light and mobile unit Deferum-05 m3 / h."
+        ]
+      },
+      "deferum-05-auto": {
+        "title": "\"Deferum 05\" automatic flushing",
+        "tech-process": {
+          "title": "Technological process of installations \"Deferum\""
+        },
+        "deferum-05": {
+          "title": "\"Deferum 05\""
+        },
+        "specs": "Specifications:",
+        "table": [
+          ["Dimensions", "1100x660x1505 mm"],
+          ["Performance", "0 to 12 m3 / day"],
+          ["Electricity consumption", "0.58 kW / m3"],
+          ["Weight", "115 kg"],
+          ["Expendable materials", "nope"]
+        ]
+      },
+      "deferum-05-semi-auto": {
+        "title": "\"Deferum 05\" semi-automatic flushing",
+        "tech-process": {
+          "title": "Technological process of installations \"Deferum\""
+        },
+        "deferum-05": {
+          "title": "\"Deferum 05\""
+        },
+        "specs": "Specifications:",
+        "table": [
+          ["Dimensions", "1100x660x1505 mm"],
+          ["Performance", "0 to 12 m3 / day"],
+          ["Electricity consumption", "0.58 kW / m3"],
+          ["Weight", "115 kg"],
+          ["Expendable materials", "nope"]
+        ]
+      },
+      "deferum-100": {
+        "title": "\"Deferum 100\""
+      }
+    },
+    "reviews": {
+      "title": "Reviews about us",
+      "leave-review": "Leave feedback"
+    }
+  },
+  "shared": {
+    "discount-form": {
+      "discount": "Discount 3000 UAH to the system \"Deferum\"",
+      "leave-application": "Leave a request right now and get a discount of 3000 UAH. water purification system \"Deferum\"",
+      "form": {
+        "name": "Name",
+        "phone": "Phone",
+        "send": "Send"
+      }
+    },
+    "feedback-forms": {
+      "manager": "Contact manager",
+      "ask": "Ask a question",
+      "name": "Name",
+      "phone": "Phone",
+      "send": "Send"
+    }
+  },
+  "modals": {
+    "call-back": {
+      "header": "Request a cal",
+      "name": "Name",
+      "phone": "Phone",
+      "send": "Send"
+    },
+    "leave-review": {
+      "header": "Leave a review",
+      "name": "Name",
+      "review": "Your review",
+      "phone": "Phone",
+      "send": "Send"
+    }
+  }
+}

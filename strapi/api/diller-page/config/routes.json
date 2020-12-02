@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/diller-page",
+      "handler": "diller-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/diller-page",
+      "handler": "diller-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/diller-page",
+      "handler": "diller-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

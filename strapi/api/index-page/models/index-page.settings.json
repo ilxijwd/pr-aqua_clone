@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "index_pages",
+  "info": {
+    "name": "indexPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "pageMetaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-tags"
+    },
+    "seoText_ru": {
+      "type": "richtext",
+      "required": true
+    },
+    "seoText_ua": {
+      "type": "richtext",
+      "required": true
+    },
+    "seoText_en": {
+      "type": "richtext",
+      "required": true
+    },
+    "partners": {
+      "collection": "partners"
+    },
+    "reviews": {
+      "collection": "reviews"
+    },
+    "h1_ru": {
+      "type": "string"
+    },
+    "h1_ua": {
+      "type": "string"
+    },
+    "h1_en": {
+      "type": "string"
+    }
+  }
+}

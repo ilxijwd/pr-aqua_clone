@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "prices_pages",
+  "info": {
+    "name": "pricesPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "pageMetaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-tags"
+    }
+  }
+}

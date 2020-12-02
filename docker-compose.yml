@@ -1,0 +1,60 @@
+version: "3"
+
+services:
+  nuxt:
+    container_name: nuxt
+    build:
+      context: ./nuxt
+      args:
+        STRAPI_URL: http://api.pr-aqua.com.ua
+        BASE_URL: http://pr-aqua.com.ua
+    volumes:
+      - ./nuxt:/srv/nuxt
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - HOST=0.0.0.0
+      - PORT=3000
+    links:
+      - strapi:strapi
+    depends_on:
+      - strapi
+  postgres:
+    container_name: postgres
+    image: postgres:9.4
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=strapi
+      - POSTGRES_PASSWORD=INSERT_PASSWORD_HERE
+  strapi:
+    container_name: strapi
+    image: strapi/strapi
+    environment:
+      - NODE_ENV=production
+      - URL=http://api.pr-aqua.com.ua
+      - ADMIN_URL=http://api.pr-aqua.com.ua/admin
+      - DATABASE_CLIENT=postgres
+      - DATABASE_NAME=strapi
+      - DATABASE_HOST=postgres
+      - DATABASE_PORT=5432
+      - DATABASE_USERNAME=strapi
+      - DATABASE_PASSWORD=INSERT_PASSWORD_HERE
+    links:
+      - postgres:postgres
+    volumes:
+      - ./strapi:/srv/app
+    ports:
+      - "1337:1337"
+    depends_on:
+      - postgres
+  nginx:
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/ssl:/etc/nginx/certs
+    build: ./nginx
+    restart: unless-stopped
